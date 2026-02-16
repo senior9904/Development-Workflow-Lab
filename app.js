@@ -11,7 +11,7 @@ function solve() {
   let mainElement = document.getElementById("main");
   let bodyElement = document.querySelector(".body");
 
-
+// New comment
   publishBtnElement.addEventListener('click', onPublish);
   function onPublish(e) {
     e.preventDefault();
